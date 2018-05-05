@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<section if="android">
+		<classpath name="src" />
+		<dependency name="mobileprefs" path="dependencies/mobileprefs" />
+	</section>
+	
+	<section if="ios">
+		<ndll name="mobileprefs" />
+	</section>
+	
+</project>
